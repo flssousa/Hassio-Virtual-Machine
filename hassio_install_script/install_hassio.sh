@@ -29,4 +29,4 @@ sudo apt-get install docker-ce -y;  # auto-answer Yes
 
 # Replace user path with your user
 tput setaf 201; tput bold; echo ""; echo "Step 3, Installing Home Assistant"; echo ""; tput sgr0;
-curl -sL https://raw.githubusercontent.com/icanfixitweb/Hassio-Virtual-Machine/master/hassio_install_script/original_script/installer.sh | bash -s -- -d /home/me/docker/hassio
+curl -sL https://raw.githubusercontent.com/flssousa/Hassio-Virtual-Machine/master/hassio_install_script/original_script/installer.sh | bash -s -- -d /home/me/docker/hassio
